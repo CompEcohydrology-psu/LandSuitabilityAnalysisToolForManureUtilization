@@ -36,28 +36,30 @@ General Information
 		Address: 208 Agricultural Engineering Building
 		Email: gks13@psu.edu
 
-### Date of data collection/creation: 20160101 to 20191231 (used readily avialable data collected by different federal and state agencies). 
+### Date of data collection/creation: 
+2016-01-01 to 2019-12-31 (used readily avialable data collected by different federal and state agencies). 
 
-### Geographic location of data collection: Armstrong County, Indiana County, Westmoreland County, Pennsylvania, United States of America
+### Geographic location of data collection: 
+Armstrong County, Indiana County, Westmoreland County, Pennsylvania, United States of America
 
-### Funders and sponsors of data collection: Pennsylvania Department of Agriculture, USDA National Institute of Food and Agriculture Federal Appropriations 
-											under Project PEN04574 and Accession number 1004448, and USDA-NIFA Federal Appropriations under Project PEN04629 
-											and Accession number 1014132.
+### Funders and sponsors of data collection: 
+Pennsylvania Department of Agriculture, USDA National Institute of Food and Agriculture Federal Appropriations under Project PEN04574 and Accession number 1004448, and USDA-NIFA Federal Appropriations under Project PEN04629 and Accession number 1014132.
 
 Sharing/Access Information
 ---
 
-### License & restrictions on data reuse: No restriction for share and adapt. Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+### License & restrictions on data reuse:
+No restriction for share and adapt. Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
-### Recommended citation for the data: Saha, G., Cibin, R., Elliott, H., & Preisendanz, H. (2020). Land Suitability Analysis Tools
-									   for Sustainable Manure Utilization. https://doi.org/10.26207/99tk-sn24.
+### Recommended citation for the data:
+Saha, G., Cibin, R., Elliott, H., & Preisendanz, H. (2020). Land Suitability Analysis Tools for Sustainable Manure Utilization. https://doi.org/10.26207/99tk-sn24.
 
-### Related publications: Saha, G., Cibin, R., Elliott, H., & Preisendanz, H. (2020). Development of A Land Suitability Framework 
-						  for Sustainable Manure Utilization. Transactions of the ASABE (In press).
+### Related publications: 
+Saha, G., Cibin, R., Elliott, H., & Preisendanz, H. (2020). Development of A Land Suitability Framework for Sustainable Manure Utilization. Transactions of the ASABE (In press).
 
 
-### Links to other publicly accessible locations of the data: Github repository (CompEcohydrology-psu/LandSuitabilityAnalysisToolForManureUtilization).
-															Available at https://github.com/CompEcohydrology-psu/LandSuitabilityAnalysisToolForManureUtilization
+### Links to other publicly accessible locations of the data: 
+Github repository (CompEcohydrology-psu/LandSuitabilityAnalysisToolForManureUtilization. Available at https://github.com/CompEcohydrology-psu/LandSuitabilityAnalysisToolForManureUtilization
 
 ### Related data sets: 
 1. Land-use/land cover data (USDA-NASS; https://nassgeodata.gmu.edu/CropScape/)
