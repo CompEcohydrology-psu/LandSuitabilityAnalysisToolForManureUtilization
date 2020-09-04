@@ -1,4 +1,4 @@
-# LandSuitabilityAnalysisToolForManureUtilization
+# Land_Suitability_Analysis_Tool_For_Manure_Utilization
 This repository contains ArcGIS-based Land Suitability Analysis tools developed for Sustainable Manure Utilization
 
 *This README.md file was generated on 20200904 by GOURAB K SAHA*
