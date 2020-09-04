@@ -24,7 +24,8 @@ General Information
 		Institution: Pennsylvania State University
 		Address: 253 Agricultural Engineering Building
 		Email: hae1@psu.edu
-
+		
+- Associate or Co-investigator:
 		Name: Dr. Heather Preisendanz
 		Institution: Pennsylvania State University
 		Address: 252 Agricultural Engineering Building
