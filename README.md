@@ -60,13 +60,13 @@ Sharing/Access Information
 															Available at https://github.com/CompEcohydrology-psu/LandSuitabilityAnalysisToolForManureUtilization
 
 ### Related data sets: 
-					1. Land-use/land cover data (USDA-NASS; https://nassgeodata.gmu.edu/CropScape/)
-					2. Floodplains data (National Flood Hazard Layer (NFHL), collected by FEMA; https://msc.fema.gov/portal/advanceSearch)
-					3. Streams data (National Hydrography Dataset (NHD), collected by USGS; https://viewer.nationalmap.gov/basic/)
-					4. Elevation data (Digital Elevation Model (DEM), collected by USGS; https://viewer.nationalmap.gov/basic/)
-					5. Soil data (USDA-NRCS; https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx)
-					6. Precipitation data (Monthly Climate Normals (1981-2010, collected by NOAA-NCDC; https://www.ncdc.noaa.gov/cdo-web/search?datasetid=GHCND)
-					7. Soil erodibility factor (K factor) data (from Soil Data Viewer 6.1; collected by USDA-NRCS; https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/geo/?cid=nrcs142p2_053619)
+1. Land-use/land cover data (USDA-NASS; https://nassgeodata.gmu.edu/CropScape/)
+2. Floodplains data (National Flood Hazard Layer (NFHL), collected by FEMA; https://msc.fema.gov/portal/advanceSearch)
+3. Streams data (National Hydrography Dataset (NHD), collected by USGS; https://viewer.nationalmap.gov/basic/)
+4. Elevation data (Digital Elevation Model (DEM), collected by USGS; https://viewer.nationalmap.gov/basic/)
+5. Soil data (USDA-NRCS; https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx)
+6. Precipitation data (Monthly Climate Normals (1981-2010, collected by NOAA-NCDC; https://www.ncdc.noaa.gov/cdo-web/search?datasetid=GHCND)
+7. Soil erodibility factor (K factor) data (from Soil Data Viewer 6.1; collected by USDA-NRCS; https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/geo/?cid=nrcs142p2_053619)
 
 
 Data & File Overview
@@ -167,7 +167,7 @@ Data & File Overview
 File/Format-Specific Information
 ---
 
-### `Model_Builder_based_Land_Suitability_Analysis_Toolbox/*.tbx`
+### `Model_Builder_based_Land_Suitability_Analysis_Toolbox.tbx`
 - Number of variables: 8
 - Number of cases/rows: N/A
 - Variable list, defining any abbreviations, units of measure, codes or symbols used: (i) Projected Landuse Raster, (ii) Reclassification Table, (iii) Projected Study Area Shapefile, (iv) Projected Flood Layer Shapefile,
@@ -175,70 +175,71 @@ File/Format-Specific Information
 - Missing data codes: N/A
 - Specialized formats or other abbreviations used: N/A
 
-### `Potential_Area_Identification_Toolbox/*.tbx`
+### `Potential_Area_Identification_Toolbox.tbx`
 - Number of variables: 3
 - Number of cases/rows: N/A
 - Variable list, defining any abbreviations, units of measure, codes or symbols used: (i) Input Land Use / Land Cover Raster, (ii) Input Reclassification ASCII Text File, and (iii) Input Study Area Shapefile
 - Specialized formats or other abbreviations used: N/A
 
-### `Floodplains_Identification_Toolbox/*.tbx`
+### `Floodplains_Identification_Toolbox.tbx`
 - Number of variables: 2
 - Number of cases/rows: N/A
 - Variable list, defining any abbreviations, units of measure, codes or symbols used: (i) Floodplains Shapefile and (ii) Study Area Shapefile
 - Specialized formats or other abbreviations used: N/A
 
-### `Proximity_to_Streams_Identification_Toolbox/*.tbx`
+### `Proximity_to_Streams_Identification_Toolbox.tbx`
 - Number of variables: 3
 - Number of cases/rows: N/A
 - Variable list, defining any abbreviations, units of measure, codes or symbols used: (i) Input Stream Shapefile, (ii) Input Buffer Distance, and (iii) Input Study Area
 - Specialized formats or other abbreviations used: N/A
 
-### `Shallow_Soil_Identification_Toolbox/*.tbx`
+### `Shallow_Soil_Identification_Toolbox.tbx`
 - Number of variables: 2
 - Number of cases/rows: N/A
 - Variable list, defining any abbreviations, units of measure, codes or symbols used: (i) Input Soil Shapefile and (ii) Input Study Area
 - Specialized formats or other abbreviations used: N/A
 
-### `Karst_Area_Identification_Toolbox/*.tbx`
+### `Karst_Area_Identification_Toolbox.tbx`
 - Number of variables: 4
 - Number of cases/rows: N/A
 - Variable list, defining any abbreviations, units of measure, codes or symbols used: (i) Input Sinkhole Shapefile (Optional), (ii) Input Sinkhole Buffer Distance, (iii) Input Karst Area Shapefile (Optional), and (iv) Study Area Shapefile
 - Specialized formats or other abbreviations used: N/A
 
-### `Slope_based_Area_Classification_Toolbox/*.tbx`
+### `Slope_based_Area_Classification_Toolbox.tbx`
 - Number of variables: 2
 - Number of cases/rows: N/A
 - Variable list, defining any abbreviations, units of measure, codes or symbols used: (i) Input DEM Raster and (ii) Input Study Area
 - Specialized formats or other abbreviations used: N/A
 
-### `Leaching_Index_based_Area_Classification_Toolbox/*.tbx`
+### `Leaching_Index_based_Area_Classification_Toolbox.tbx`
 - Number of variables: 3
 - Number of cases/rows: N/A
 - Variable list, defining any abbreviations, units of measure, codes or symbols used: (i) Input Soil Shapefile, (ii) Input Precipitation Shapefile, and (iii) Input Study Area Shapefile
 - Specialized formats or other abbreviations used: N/A
 
-### `Pennsylvania_P_Index_based_Area_Classification_Toolbox/*.tbx`
+### `Pennsylvania_P_Index_based_Area_Classification_Toolbox.tbx`
 - Number of variables: 16
 - Number of cases/rows: N/A
-- Variable list, defining any abbreviations, units of measure, codes or symbols used: (i) Input Land Use / Land_Cover_Raster, (ii) Input Reclassification ASCII Text File, (iii) Input Study Area, (iv) Input Soil Test P Text File, (v) Input Fertilizer P Rate,
-																					  (vi) Input Fertilizer Application Method, (vii) Input Manure P Rate, (viii) Input Manure Application Method, (ix) Input P Source Coefficient, (x) Input Precipitation Shapefile,
-																					  (xi) Input Soil Erosivity Factor (K factor) Shapefile, (xii) Input DEM Raster, (xiii) Input Soil Shapefile, (xiv) Input Subsurface Drainage, (xv) Input Streams Shapefile, and
-																					  (xvi) Input Modified Connectivity Factor.
+- Variable list, defining any abbreviations, units of measure, codes or symbols used: (i) Input Land Use / Land_Cover_Raster, (ii) Input Reclassification ASCII Text File, (iii) Input Study Area, (iv) Input Soil Test P Text File, (v) Input Fertilizer P Rate, (vi) Input Fertilizer Application Method, (vii) Input Manure P Rate, (viii) Input Manure Application Method, (ix) Input P Source Coefficient, (x) Input Precipitation Shapefile, (xi) Input Soil Erosivity Factor (K factor) Shapefile, (xii) Input DEM Raster, (xiii) Input Soil Shapefile, (xiv) Input Subsurface Drainage, (xv) Input Streams Shapefile, and (xvi) Input Modified Connectivity Factor.
 - Specialized formats or other abbreviations used: N/A
 
-### `Final_Land_Suitability_Analysis_Toolbox/*.tbx`
+### `Final_Land_Suitability_Analysis_Toolbox.tbx`
 - Number of variables: 9
 - Number of cases/rows: N/A
-- Variable list, defining any abbreviations, units of measure, codes or symbols used: (i) Input Potential Raster, (ii) Input Floodplain Raster, (iii) Input Proximity to Stream Raster, (iv) Input Shallow Soils Raster, (v) Input Karst Raster (optional),
-			  																		  (vi) Input Slope Raster, (vii) Input Leaching Index Raster, and (viii) Input Phosphorus Index Raster, and (ix) Input Study Area.
+- Variable list, defining any abbreviations, units of measure, codes or symbols used: (i) Input Potential Raster, (ii) Input Floodplain Raster, (iii) Input Proximity to Stream Raster, (iv) Input Shallow Soils Raster, (v) Input Karst Raster (optional), (vi) Input Slope Raster, (vii) Input Leaching Index Raster, and (viii) Input Phosphorus Index Raster, and (ix) Input Study Area.
 - Specialized formats or other abbreviations used: N/A
 
 Methodological Information
 ---
 
 Description of methods used for collection/generation of data: The study used readily avaiable data collected by different federal and state agencies of the United States. Links have been provided in the 'SHARING/ACCESS INFORMATION' section.
+
 Methods for processing the data: Detail data processing instructions have been described in the 'Detail_Instructions_for_Data_Preparation.docx' in 'Instructions_for_Data_Preparation' folder.
+
 Standards and calibration information, if appropriate: N/A
+
 Environmental/experimental conditions: N/A
+
 Describe any quality-assurance procedures performed on the data: N/A
+
 People involved with sample collection, processing, analysis and/or submission: N/A
